@@ -1,62 +1,75 @@
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+.logo{
+	height: 100px;
+	width: 140px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-body{
+	margin-top: 10px;
+	background-image:url("1.jpg");
+	height: 500px;
+	background-size:cover;
+	/*background-position: center center;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+.text-body{
+	padding-top: 5px;
+}
+.form-body h1{
+	color: #fff;
+	font-family:'Shift', sans-serif;
+	font-size: 36px;
+	text-align: center
+}
+.form-body p{
+	font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+#mailchimp{
+	color: #3D6392;
+	padding: 30px 15px;
 }
 
-.nav li {
-  display: inline;
+form {
+    width: 300px;
+    /*margin-left:515px;
+    margin-right: 450px;*/
+    margin:0 auto;
+    text-align:center;
 }
-
-.jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
-  height: 500px;
+#mailchimp input
+{
+	border:medium none;
+	color:gray;
+	font-family:'Shift', sans-serif;
+	margin-bottom: 10px;
+	padding: 8px 10px;
+	width: 300 px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
 }
-
-.jumbotron .container {
-  position: relative;
-  top:100px;
+#mailchimp input.email{
+	background: #fff
 }
-
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+#mailchimp input.name{
+	background: #fff
 }
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
+#mailchimp input[type="submit"]{
+	background: #115B87;
+	color: #fff;
+	cursor: pointer;
+	/*margin-left: -20px;*/
+	font-size: 15px;
+	width: 250px;
+	padding: 10px 0;
 }
-
-.learn-more {
-  background-color: #f7f7f7;
+#mailchimp input[type="submit"]:hover { 
+	color: #F2C94C 
 }
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}
-
-.neighborhood-guides{
-    background-color:#efefef;
-    border-bottom: 1px solid #dbdbdb ;
-}
-
-.neighborhood-guides h2{
-    color:#393c3d;
-    font-size: 24px;
-}
-
-.neighborhood-guides p{
-    font-size: 15px;
-    margin-bottom: 13px;
+.bottom p{
+	text-align: center;
 }
